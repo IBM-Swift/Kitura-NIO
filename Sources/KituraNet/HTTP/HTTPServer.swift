@@ -21,13 +21,13 @@ import NIOSSL
 import SSLService
 import LoggerAPI
 import NIOWebSocket
-import CLinuxHelpers
 import Foundation
 import NIOExtras
 import NIOConcurrencyHelpers
 
 #if os(Linux)
 import Glibc
+import CLinuxHelpers
 #else
 import Darwin
 #endif

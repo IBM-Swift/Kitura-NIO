@@ -22,7 +22,9 @@ import NIO
 import NIOHTTP1
 import NIOSSL
 import LoggerAPI
+#if os(Linux)
 import CLinuxHelpers
+#endif
 
 class RegressionTests: KituraNetTest {
 
